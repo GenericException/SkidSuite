@@ -16,6 +16,6 @@ If you have a useful item to add open an issue or pull request. I'll review the 
 * [Decompilation](decompilation.md)
 * [Editing](editing.md)
 * [Obfuscation](obfuscation.md)
-* [Skidsuite2 successors](successors.md)
 * [Android](android.md)
 * [Relevant articles](relevant.md)
+* [Skidsuite2 successors](successors.md)
