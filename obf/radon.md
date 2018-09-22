@@ -1,4 +1,4 @@
-# Radon
+# Radon _(1.0.3)_
 
 Radon is an open-source free obfuscator. It has a UI that's visually similar to Skidfuscator/Proguard and it is very intuitive to use. 
 
