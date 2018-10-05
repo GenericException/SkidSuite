@@ -18,7 +18,7 @@
 | [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) | Another great article documenting how the jvm works. This one gets down to the details a little more than _JVM 101_, so think of it as _JVM 201_. | 
 | [Cracking Java bytecode encryption](https://www.javaworld.com/article/2077342/core-java/cracking-java-byte-code-encryption.html) | A short article on reverse engineering a simple *"encrypted classloader"* sample application. |
 | [Jetbrains Blog - Trisha Gree](https://blog.jetbrains.com/idea/author/trishagee/) | Trisha Gee has an excellent series _"Java Annotated Monthly"_ documenting interesting events in Java each month. |
-| [Solving warsaw’s Java Crackme 3](http://blog.rewolf.pl/blog/?p=856) | High quality writeup on reverse engineering a very complex crackme. |
+| [Solving warsaw’s Java Crackme 3](http://blog.rewolf.pl/blog/?p=856) | High-quality writeup on reverse engineering a very complex crackme. |
 
 ### General Java
 
