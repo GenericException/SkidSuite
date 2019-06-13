@@ -3,7 +3,7 @@
 | Tool  | Description  | Link |
 |-------|--------------|------|
 | **Helios** | Helios is a multi-tool that lets you decompile with multiple engines. _(see below)_ | [helios-standalone](https://github.com/helios-decompiler/standalone-app)
-| **Bytecode-Viewer** | Bytecode-Viewer is a multi-tool similar to Helios, but the UI is based on the multi-document-interface layout. This allows viewing different decompilations side by side.<ul><li>_Supports Java 8_.</li></ul> | [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) |
+| **Bytecode-Viewer** | Bytecode-Viewer is a multi-tool similar to Helios, but the UI is based on the multi-document-interface layout. This allows viewing different decompilations side by side.<ul><li>_Supports Java 11_.</li></ul> | [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) |
 | **JAD** | JAD is an older compiler which is unable to decompile many modern Java features.<ul><li>_Supports Java 6_.</li></ul> | [mirror](http://www.javadecompilers.com/jad) |
 | **JD** | JD is one of the most popular decompilers around. It is capable of producing very legible results on non-obfuscated jars. However simple obfuscation and modern java features _(Some generics will suffice)_ will cause it to crash. It can open modern classes as long as they do not use any modern features.<ul><li>_Supports Java 7_.</li></ul>| [jd](http://jd.benow.ca/) |
 | **Procyon** | Procyon is an all around good decompiler. It is capable of more, but most only use this feature.  <ul><li> _Supports Java 10_.</li></ul>  | [procyon](https://bitbucket.org/mstrobel/procyon/src/default/) / [gui-luyten](https://github.com/deathmarine/Luyten) |
