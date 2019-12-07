@@ -1,21 +1,29 @@
 # SkidSuite 3
 
-SkidSuite 3  _(SS3)_ is a collection of useful tools pertaining to reverse engineering of java applications. This collection may be updated to include SS3-specific tools in the future but will largely consist of externally managed projects.  
-
-> The last iteration _(SS2)_ can be found here:
-> * [FireMasterK](https://github.com/FireMasterK/SkidSuite2-Latest)
-> * [ZIP](files/SkidSuite2-master.zip)
-
-If you have a useful item to add open an issue or pull request. I'll review the changes and incorperate it if I feel it provides something useful to the toolkit as a whole.
+SkidSuite 3  is a collection of useful tools pertaining to reverse engineering of Java applications.  
 
 ***
 
 ## Table of Contents
 
-* [Deobfuscation](deobfuscation.md)
-* [Decompilation](decompilation.md)
-* [Editing](editing.md)
-* [Obfuscation](obfuscation.md)
-* [Android](android.md)
-* [Relevant articles](relevant.md)
-* [Skidsuite2 successors](successors.md)
+| Article Title | Description |
+|---|---|
+| [Deobfuscation](deobfuscation.md)      | Links to automatic deobfuscation tools. <br> Links to manual remapping tools.  |
+| [Decompilation](decompilation.md)      | Links to decompilers. Translate bytecode to source-code. |
+| [Editing](editing.md)                  | Links to bytecode editors. Used for manipulating already complied Java programs. |
+| [Obfuscation](obfuscation.md)          | Links to obfuscators. Used to make code theft and reverse-engineering more difficult. |
+| [Android](android.md)                  | Links to tools/resources for android-focused reverse-engineering. |
+| [Relevant articles](relevant.md)       | Links to varied articles/resources for Java reverse-engineering and general JVM topics. |
+| [Skidsuite2 successors](successors.md) | Links to tools that serve the same purposes as tools I previously included in SkidSuite. |
+
+## Old Archives
+
+Older versions of SkidSuite can be found here:
+
+* [SkidSuite1 ZIP _(SkidGUI)_](files/SkidGUI-master.zip)
+* [SkidSuite2 ZIP](files/SkidSuite2-master.zip)
+* [SkidSuite2 GitHub](https://github.com/FireMasterK/SkidSuite2-Latest)
+
+## Contributing
+
+If you have an informative article or useful tool please open an issue with a link or pull request with the changes to the relevant markdown files.
