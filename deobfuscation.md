@@ -1,12 +1,21 @@
 ### Deobfuscation
 
+These tools automatically remove obfuscation by different obfuscators and packers.
+
 | Tool  | Description  | Link |
 |-------|--------------|------|
 | **Java Deobfuscator**  | Java deobfuscator is a tool created by Samczun and [others](https://github.com/java-deobfuscator/deobfuscator/graphs/contributors). It provides an easy to use interface for removing obfuscation of popular tools such as: _[Allatori](http://www.allatori.com/), [ClassGuard](https://www.zenofx.com/classguard/), [DashO](https://www.preemptive.com/products/dasho/overview), [Stringer](https://jfxstore.com/stringer/), and [Zelix](https://www.zelix.com/) (Additional general obfuscation practices also supported)_ |  [Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) / [GUI](https://github.com/java-deobfuscator/deobfuscator-gui)  |
-| **Enigma** | Enigma is an easy to use manual remapper of jar applications. It allows you to remap classes and members similar to how you would refactor a class in an IDE. This however relies on the class being successfully decompiled by an old build of Procyon. Exporting classes in the default package prefixes the `none` package, which is really annoying. <br> An updated version is also maintained by FabricMC. | [Enigma](https://www.cuchazinteractive.com/enigma/) <br> [FabricMC/Enigma](https://github.com/FabricMC/Enigma) |
-| **JRemapper** | JRemapper is another manual remapper with a lot of the same design approaches of Enigma, except with a more modern decompiler _(CFR 132)_. Despite this it should only be used if Enigma fails due to some UI issues. | [JRemapper](https://github.com/Col-E/JRemapper) |
 | **Stringer Verification Bypass** | Automatically removes integrity checks created by Stringer. This is targeted at Stringer 3.0.x, which is signifigantly outdated but people still use it since you can.. \*Ahem\* _"find it online"_, so its still useful. | [Stringer Verification Bypass](https://github.com/GraxCode/stringer-verification-bypass) |
 | **Zelix Killer** | Similar to JavaDeobfuscator in usage, but entierly focused on Zelix Klassmaster. Supported Zelix versions are 8 and 11. | [Zelix Killer](https://github.com/GraxCode/zelixkiller) |
 | **Java Unpacker** | While not technically deobfuscation, dumping is very similar and can be used as a supplement to obfuscation. So I'll include it. Supported packers are: <ul><li>CoreProtectEx</li><li>XMC2Ex</li><li>JCryptEx</li><li>JarProtectorEx</li></ul>| [Java Unpacker](https://github.com/GraxCode/java-unpacker) |
+
+### Remapping
+
+These tools remap classes in application jars in a similar way that the refactoring feature works in most IDE's. They're more focused in their purpose so remapping is actually a much easier on a large scale using these tools rather than decompiling code and using an IDE's refactor function.
+
+| Tool  | Description  | Link |
+|-------|--------------|------|
+| **JRemapper** | Uses CFR decompiler. It can export a mappings JSON or a mapped Jar file. | [JRemapper](https://github.com/Col-E/JRemapper) |
+| **Enigma** | Uses Procyon decompiler. It can export a mappings text in the Enigma/SRG/Tiny formats or a mapped Jar file. | [Enigma](https://github.com/FabricMC/Enigma) |
 
 > [_(Back to README)_](README.md)
