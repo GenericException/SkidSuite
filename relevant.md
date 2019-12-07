@@ -8,6 +8,7 @@
 | [Allatori 3 decompiled](https://github.com/netindev/Allatori-v3.0) | An interesting peek into how Java obfuscation works using the BCEL library |
 | [Objectweb ASM](https://asm.ow2.io/) | The go-to library for manipulating Java bytecode. |
 | [ByteBuddy](http://bytebuddy.net/) | A runtime code-generation library built off of ASM. Additionally it tries to remain user friendly by abstracting away java bytecode constructs. |
+| [VisualVM](https://github.com/oracle/visualvm) | VisualVM is an All-in-One Java troubleshooting tool. You can use features like thread dumping to assist in reverse engineering unknown files by checking thread stack-traces. |
 
 ### Reverse Engineering - Information
 
