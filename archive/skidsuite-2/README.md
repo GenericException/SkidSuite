@@ -18,7 +18,7 @@ SkidSuite 2 is a collection of useful tools pertaining to reverse engineering of
 
 ## Screenshots
 
-* ![Skidfuscator](screenshots\s1.png)
-* ![SkidScan](screenshots\s2.png)
-* ![SkidMapper](screenshots\s3.png)
-* ![SkidVisualizer](screenshots\s4.png)
+* [Skidfuscator](screenshots/s1.png)
+* [SkidScan](screenshots/s2.png)
+* [SkidMapper](screenshots/s3.png)
+* [SkidVisualizer](screenshots/s4.png)
