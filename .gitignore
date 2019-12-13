@@ -1,0 +1,10 @@
+**/target/**
+*.iml
+*.iws
+.classpath
+.idea/
+.metadata/**
+.project
+.recommenders/**
+.settings/**
+bin/**

@@ -1,6 +1,6 @@
 # SkidSuite 3
 
-SkidSuite 3  is a collection of useful tools pertaining to reverse engineering of Java applications.  
+SkidSuite 3 is a collection of useful tools pertaining to reverse engineering of Java applications.  
 
 ***
 
