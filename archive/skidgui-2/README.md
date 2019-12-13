@@ -1,4 +1,4 @@
-# SkidGUI
+# SkidGUI 2.0
 A multipurpose tool for working with java bytecode. 
 
 Working on a total re-write (Which can be found [here](../skidsuite-2))
