@@ -43,8 +43,8 @@ public class PatchingTab extends BasicTab {
 	public void targetLoaded() {
 		btnObfuPatch.setDisable(false);
 		btnStringPatch.setDisable(false);
-		//btnBytecode.setDisable(false);
-		btnStack.setDisable(false);
+		btnBytecode.setDisable(false);
+		//btnStack.setDisable(false);
 	}
 	
 	public void show(InternalTab tab){
