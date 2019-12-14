@@ -1,15 +1,12 @@
 # Allatori Samples
 
-**Version used**: 7.2 Educational Edition - December 1st, 2019
+**Versions used**: 
 
-The adjacent folders are named based on the options applied to the samples in the given format: 
+* 7.2 - December 1st, 2019
 
-> `Option1-Option2-...-...`
+### Legend - 7.2
 
-> Where Option1 and Option2 are notable options that have been used.
-
-
-### Legend
+Sample names are based on the given table of options:
 
 | Abbriviated | Full Option |
 | ------------| ------------|
@@ -20,7 +17,3 @@ The adjacent folders are named based on the options applied to the samples in th
 | V4   | Version 4 of String Encryption |
 | F    | Fast String Encryption |
 | S    | Strong String Encryption |
-
-### Other Notes
-
-Renaming has been disabled as it is not important, along with other miscellaneous options.
