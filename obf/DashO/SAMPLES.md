@@ -22,5 +22,6 @@ Sample names are based on the given table of options:
 | Watermark     | Watermark _"1337"_ |
 | WatermarkPass | Watermark _"1337"_ + password _"password"_ |
 | WatermarkAlt  | Watermark _"AltWatermar"_ |
+| AntiTamper    | Exit on tampering detected |
 | CheckDebug    | Exit on debug detected |
 | Max           | Max settings for: Flow/String obfuscation combined |
