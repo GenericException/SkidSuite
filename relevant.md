@@ -22,6 +22,7 @@
 | [What is Obfuscation and how does it apply to Java?](https://www.preemptive.com/obfuscation) | An article by PreEmptive _(DashO and Dotfuscator team)_ that covers some of the common tactics used by obfuscators with illustrative example graphics. |
 | [Decompiler Vulnerabilities and Bugs](https://github.com/Janmm14/decompiler-vulnerabilities-and-bugs) | A collection of tricks that fool decompilers into emitting the wrong output, or crashing entierly. |
 | [Stop Decompiling My Java](https://github.com/ItzSomebody/StopDecompilingMyJava) | A continuation of _"Decompiler Vulnerabilities and Bugs"_. |
+| [Anatomy of a Java Decompiler](https://accu.org/index.php/journals/1850) | An article by the authors of CFR & Procyon discussing some of the basic concepts that go into creating a Java decompiler. |
 
 ### General Java
 
