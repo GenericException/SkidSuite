@@ -12,6 +12,8 @@ Sample names are based on the given table of options:
 | ------------| ------------|
 | Anno           | Invalid annotations   |
 | ClassEncrypt   | Encrypt class files. StringKey=`1337`, ClassKey=`69`  |
+| CorruptNames   | Corrupt class names _(Also known as fake-directory)_ |
+| CorruptStream  | Corrupt output stream |
 | Flow           | Flow Obfuscation: Base   |
 | FlowGoto       | Flow Obfuscation: Base + Goto flooding   |
 | FlowTry        | Flow Obfuscation: Base + Heavy try catch   |
