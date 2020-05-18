@@ -1,4 +1,4 @@
-### Decompilation
+## Decompilation
 
 | Tool  | Description  | Link |
 |-------|--------------|------|
@@ -13,5 +13,11 @@
 | **Krakatau** | Krakatau is a set of 3 bytecode tools, an assembler, disassembler, and decompiler. The decompiler does not focus on recreating the original code of a class, but rather takes some _"artistic liberties"_. This allows it to bypass minor obfuscation that would be shown with a pattern matching decompiler. <ul><li>_Requires Python_</li><li>_Supports Java 7, but (dis)assembler supports Java 10_.</li></ul> | [krakatau](https://github.com/Storyyeller/Krakatau) |
 | **jadx** | Jadx is an android dex to Java decompiler capable of also doing simple deobfuscation. | [jadx](https://github.com/skylot/jadx) |
 | **Javap** | Javap is the dissasembler provided in all releases of the JDK. It's simple to use and since its only showing you bytecode and not attempting to transform it into source code, you can trust the output. | [javap](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javap.html) | 
+
+### Relevant links
+
+| Link  | Description |
+|-------|-------------|
+| [The Strengths and Behavioral Quirks of Java Bytecode Decompilers](https://arxiv.org/abs/1908.06895) | An academic paper that analyzes the most popular decompilers and compares them using objective metrics. |
 
 > [_(Back to README)_](README.md)

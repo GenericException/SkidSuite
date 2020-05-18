@@ -8,6 +8,6 @@
 | **SkidHijack** | [UDP-Java](https://github.com/UnknownDetectionParty/UDP-Java/) |  UDP-Java is a Java agent / injection framework. While it is initially targeted at Minecraft it can easily be configured to target other java applications like Runescape. |
 | **ObfuRemover** | [Deobfuscator](https://github.com/java-deobfuscator/deobfuscator) / [GUI](https://github.com/java-deobfuscator/deobfuscator-gui) | Samczun's deobfuscator project is everything this was and better. |
 | **Mapping Utility** | [JRemapper](https://github.com/Col-E/JRemapper) | While it doesn't have the automated features of Mapping Utility, its notable for its ability to easily remap classes in the GUI. |
-| **Jar Correlation** | n/a | n/a |
+| **Jar Correlation** | [Cafecompare](https://github.com/GraxCode/cafecompare) | It directly saves correlated files. No mapping export supported at the moment. |
 
 > [_(Back to README)_](README.md)
