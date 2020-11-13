@@ -23,14 +23,19 @@
 | [What is Obfuscation and how does it apply to Java?](https://www.preemptive.com/obfuscation) | An article by PreEmptive _(DashO and Dotfuscator team)_ that covers some of the common tactics used by obfuscators with illustrative example graphics. |
 | [Decompiler Vulnerabilities and Bugs](https://github.com/Janmm14/decompiler-vulnerabilities-and-bugs) | A collection of tricks that fool decompilers into emitting the wrong output, or crashing entierly. |
 | [Stop Decompiling My Java](https://github.com/ItzSomebody/StopDecompilingMyJava) | A continuation of _"Decompiler Vulnerabilities and Bugs"_. |
+| [The Strengths and Behavioral Quirks ofJava Bytecode Decompilers](https://arxiv.org/pdf/1908.06895.pdf) | An article comparing performance metrics of today's most recent Java decompilers.  |
 | [Anatomy of a Java Decompiler](https://accu.org/index.php/journals/1850) | An article by the authors of CFR & Procyon discussing some of the basic concepts that go into creating a Java decompiler. |
+| [Reverse Compilation Techniques](https://yurichev.com/mirrors/DCC_decompilation_thesis.pdf) | A thesis paper by Cristina Cifuentes that dives deep into data flow and control flow analysis. Implementation code found [here](https://github.com/nemerle/dcc) |
+| [Covert Java: Techniques for Decompiling, Patching, and Reverse Engineering](https://github.com/manjunath5496/Reverse-Engineering-Books/blob/master/revb(9).pdf) | A book covering many concepts important to reverse engineering, focused in the Java realm. Dated terminology and programs referenced, but concepts are still rock solid. |
+
+
 
 ### General Java
 
 | Link  | Description |
 |-------|-------------|
 | [OpenJDK mirror](https://github.com/md-5/OpenJDK) | A mirror of the current OpenJDK repository. This contains the source code to the lastest java code-base. Javadocs are great but sometimes it helps to see how the code actually works. Perhaps you may discover something interesting while looking around. |
-| OpenJDK <ul><li>[9](http://openjdk.java.net/projects/jdk9/)</li><li>[10](http://openjdk.java.net/projects/jdk/10/)</li><li>[11](http://openjdk.java.net/projects/jdk/11/)</li><li>[12](http://openjdk.java.net/projects/jdk/12/)</li><li>[13](http://openjdk.java.net/projects/jdk/13/)</li><li>[14](http://openjdk.java.net/projects/jdk/14/)</li><li>[15](http://openjdk.java.net/projects/jdk/15/)</li></ul>| OpenJDK project pages for each JDK release. Each page contains links to the JEPs _(JDK Enhancement Proposals)_ in the version. Following these pages is useful for staying up-to-date with the status of the Java language. You can also find pending proposals on the site that are not tied to any JDK release yet which can sometimes have some interesting goals. |
+| OpenJDK <ul><li>[9](http://openjdk.java.net/projects/jdk9/)</li><li>[10](http://openjdk.java.net/projects/jdk/10/)</li><li>[11](http://openjdk.java.net/projects/jdk/11/)</li><li>[12](http://openjdk.java.net/projects/jdk/12/)</li><li>[13](http://openjdk.java.net/projects/jdk/13/)</li><li>[14](http://openjdk.java.net/projects/jdk/14/)</li><li>[15](http://openjdk.java.net/projects/jdk/15/)</li><li>[16](http://openjdk.java.net/projects/jdk/16/)</li></ul>| OpenJDK project pages for each JDK release. Each page contains links to the JEPs _(JDK Enhancement Proposals)_ in the version. Following these pages is useful for staying up-to-date with the status of the Java language. You can also find pending proposals on the site that are not tied to any JDK release yet which can sometimes have some interesting goals. |
 | [Java Specifications](https://docs.oracle.com/javase/specs/) | Oracle's languange and JVM specifications for each version of Java released. |
 | [/r/Java](https://www.reddit.com/r/java/) | The Java subreddit. Topics focus on relevant libraries/frameworks and version update news. |
 | [FX Experience](http://fxexperience.com/) | FX Experience hosts blogposts for JavaFX news and also hosts a few projects of its own. |
