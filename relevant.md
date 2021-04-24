@@ -16,14 +16,14 @@
 | Link  | Description |
 |-------|-------------|
 | [JVM 101](https://blog.takipi.com/jvm-architecture-101-get-to-know-your-virtual-machine/) | A great article for an introduction to how the jvm / java bytecode works. |
-| [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) | Another great article documenting how the jvm works. This one gets down to the details a little more than _JVM 101_, so think of it as _JVM 201_. | 
+| [JVM Internals](http://blog.jamesdbloom.com/JVMInternals.html) | Another great article documenting how the jvm works. This one gets down to the details a little more than _JVM 101_, so think of it as _JVM 201_. |
 | [Cracking Java bytecode encryption](https://www.javaworld.com/article/2077342/core-java/cracking-java-byte-code-encryption.html) | A short article on reverse engineering a simple *"encrypted classloader"* sample application. |
 | [Solving warsaw’s Java Crackme 3](http://blog.rewolf.pl/blog/?p=856) | High-quality writeup on reverse engineering a very complex crackme. |
 | [CFR](http://benf.org/other/cfr/) | Lee Benfield writes about the Java class file layout and its relationship with his decompiler. Some of the articles make for quick interesting reads. |
 | [What is Obfuscation and how does it apply to Java?](https://www.preemptive.com/obfuscation) | An article by PreEmptive _(DashO and Dotfuscator team)_ that covers some of the common tactics used by obfuscators with illustrative example graphics. |
 | [Decompiler Vulnerabilities and Bugs](https://github.com/Janmm14/decompiler-vulnerabilities-and-bugs) | A collection of tricks that fool decompilers into emitting the wrong output, or crashing entierly. |
 | [Stop Decompiling My Java](https://github.com/ItzSomebody/StopDecompilingMyJava) | A continuation of _"Decompiler Vulnerabilities and Bugs"_. |
-| [The Strengths and Behavioral Quirks ofJava Bytecode Decompilers](https://arxiv.org/pdf/1908.06895.pdf) | An article comparing performance metrics of today's most recent Java decompilers.  |
+| [The Strengths and Behavioral Quirks of Java Bytecode Decompilers](https://arxiv.org/pdf/1908.06895.pdf) | An article comparing performance metrics of today's most recent Java decompilers.  |
 | [Anatomy of a Java Decompiler](https://accu.org/index.php/journals/1850) | An article by the authors of CFR & Procyon discussing some of the basic concepts that go into creating a Java decompiler. |
 | [Reverse Compilation Techniques](https://yurichev.com/mirrors/DCC_decompilation_thesis.pdf) | A thesis paper by Cristina Cifuentes that dives deep into data flow and control flow analysis. Implementation code found [here](https://github.com/nemerle/dcc) |
 | [Covert Java: Techniques for Decompiling, Patching, and Reverse Engineering](https://github.com/manjunath5496/Reverse-Engineering-Books/blob/master/revb(9).pdf) | A book covering many concepts important to reverse engineering, focused in the Java realm. Dated terminology and programs referenced, but concepts are still rock solid. |

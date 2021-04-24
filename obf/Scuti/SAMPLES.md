@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbriviated | Full Option / Description |
+| Abbreviated | Full Option / Description |
 | ------------| ------------|
 | Anno           | Invalid annotations   |
 | ClassEncrypt   | Encrypt class files. StringKey=`1337`, ClassKey=`69`  |

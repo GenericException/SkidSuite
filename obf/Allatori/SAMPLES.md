@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbriviated | Full Option |
+| Abbreviated | Full Option |
 | ------------| ------------|
 | CF   | Control Flow _(No Extensive Control Flow Obfuscation)_ |
 | NECF | Normal Extensive Control Flow |

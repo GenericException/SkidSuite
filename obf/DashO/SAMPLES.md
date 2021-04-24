@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbriviated | Full Option |
+| Abbreviated | Full Option |
 | ------------| ------------|
 | Flow                | Default flow obfuscation settings |
 | FlowMaxTry          | Default + Maximum try-catch block mangling |

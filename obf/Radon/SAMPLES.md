@@ -9,7 +9,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbriviated | Full Option |
+| Abbreviated | Full Option |
 | ------------| ------------|
 | Str1    | String Encryption: Light   |
 | Str2    | String Encryption: Medium  |

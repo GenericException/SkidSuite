@@ -16,13 +16,6 @@ SkidSuite 3 is a collection of useful tools pertaining to reverse engineering of
 | [Relevant articles](relevant.md)       | Links to varied articles/resources for Java reverse-engineering and general JVM topics. |
 | [Skidsuite2 successors](successors.md) | Links to tools that serve the same purposes as tools I previously included in SkidSuite. |
 
-## Old Archives
-
-Older versions of SkidSuite can be found here:
-* [SkidGUI 1.7](archive/skidgui-1/)
-* [SkidGUI 2.0](archive/skidgui-2/)
-* [SkidSuite2](archive/skidsuite-2/)
-
 ## Contributing
 
 If you have an informative article or useful tool please open an issue with a link or pull request with the changes to the relevant markdown files.
