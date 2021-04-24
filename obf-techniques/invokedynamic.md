@@ -89,7 +89,7 @@ For more information on how Java does this you can check out [LambdaMetafactory]
 
 Now remember how I said the first 3 args are the only required arguments? Now we can consider _custom `CallSite` lookups!_ Since we know how `metafactory` roughly works, what if we supplied different arguments in the `BootstrapMethodAttribute`? We can easily put an `int` in the args and have our `customLookup` function map that key to a `MethodHandle` and wrap it in a `ConstantCallSite`. Because this is not something `javac` would normally output the average decompiler will have no way to really know what the `int` argument means. So if we had a system where we mapped `int` to some logic that does something similar to `metafactory` where we generate a new `Runnable` pointing to the `void example()` function you can break the decompiler's ability to display lambda functions.
 
-Your lookup doesn't need to be that complicated, as long as its just different decompilers do not have the pattern recognition ability to understand you're invoking a lambda.
+Your lookup doesn't need to be that complicated, as long as its just different from `metafactory` then decompilers do not have the pattern recognition ability to understand you're invoking a lambda.
 
 Additionally who ever said we're limited to invoking lambdas? The `invokedynamic` instruction essentially is just a lazy load operation for method handles, so who's to say we can't map an entire program's normal `invokevirtual` and `invokestatic` calls to `invokedynamic`? Well, fun fact you can! And much more. Dig into method handles, its a real rabbit hole.
 
