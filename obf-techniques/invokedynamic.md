@@ -70,7 +70,7 @@ Looks scary, but lets break it down. The `#30 invokestatic blablabla` is a metho
 	public static ConstantCallSite customLookup(
 			MethodHandles.Lookup lookup, 
 			String callerName,
-			MethodType callerType, // any argument after this is not requires
+			MethodType callerType, // any argument after this is not required, and is implementation specific
 			int key // for example, this arg 'key' is not required (see explaination below)
     ) { ... }
 ```
