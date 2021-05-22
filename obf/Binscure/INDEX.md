@@ -2,4 +2,4 @@
 
 * [Samples](SAMPLES.md)
 * [Product page](https://binclub.dev/binscure)
-* [Changelog](http://www.allatori.com/changelog.html)
+* [Changelog](https://binclub.dev/binscure/changelog)

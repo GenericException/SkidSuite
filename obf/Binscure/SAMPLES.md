@@ -2,7 +2,7 @@
 
 **Versions used**: 
 
-* 0.4 - April 20th, 2021
+* 0.4 - July 3rd, 2020
 
 ### Legend - 0.4
 
