@@ -1,9 +1,10 @@
+
 ### Obfuscation
 
 | Tool  | Description  | Price | Link |
 |-------|--------------|-------|------|
 | **Allatori** | Allatori is has a free demo with basic obfuscation features. You can't beat free. | <ul><li>Demo: Free</li><li>Full: $290+</li></ul> | [Allatori](http://www.allatori.com/) |
-| **Binscure** | Binscure offers standard obfuscation features _(Except renaming)_ plus decompiler/ASM crashing capabilities _(Auto-patchable in Recaf)_. Flow control crashes most decompilers. | <ul><li>Full: 75£+ _(Crypto only)_</li></ul> | [Binscure](https://binclub.dev/binscure) |
+| **Binscure** | Binscure offers standard obfuscation features _(Except renaming)_ plus decompiler/ASM crashing capabilities _(Auto-patchable in Recaf)_. Flow control crashes most decompilers. | <ul><li>~~Full: 75£+ _(Crypto only)_~~</li><li>Free (development ended)</li></ul> | [Binscure](https://binclub.dev/) |
 | **Branchlock** | A web based obfuscator. Offers standard obfuscation features plus decompiler crashing tools. Supports Android as well.<ul><li>No known samples to validate claims</li></ul> | <ul><li>Full: €64+</li></ul> | [Branchlock](https://branchlock.net/) |
 | **DashO** | DashO is a step above Allatori in almost every department. The flow obfuscation is more noticeable than in some other obfuscators, the string encryption is more dynamic, and it has more features overall. | <ul><li>Trial: 1 Week </li><li>Full: Varies, [~$2000](https://www2.cs.arizona.edu/~collberg/Teaching/620/2008/Assignments/tools/DashO/) </li></ul> | [DashO](https://www.preemptive.com/products/dasho/overview) |
 | **Dexguard** | Dexguard is an Android application obfuscator, supports all the common features plus a few extra Android-specific abilities.  | <ul><li>Full: Varies</li></ul> | [Dexguard](https://www.guardsquare.com/en/products/dexguard) |
