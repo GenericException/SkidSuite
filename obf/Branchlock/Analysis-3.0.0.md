@@ -37,3 +37,44 @@ This trick abuses an edge case in how the JVM reads classes from zip files vs ho
 Branchlock applies this to all classes.
 
 ![img](docs/fakedir2.png)
+
+### 5. Invalid generic signatures
+
+Signatures are different from descriptors. Descriptors define the concrete type of a field or method. Signatures are optional debug attributes attached to a field or method that describe the generic type of the member. Since it's optional debug info the JVM never actually needs to look at it. Its there merely so the compiler can fulfil type contracts when using generics at compile-time. You can put literal garbage in there. Branchlock does that and this results in most decompilers giving up, because nobody bothers to handle cases of intentional obfuscation aside from CFR.
+
+**FernFlower**
+
+```
+java.lang.IllegalArgumentException: Invalid descriptor: (Ljava/lang/String; type = 10; classname = java/lang/Object; elementname = hashCode
+	at org.jetbrains.java.decompiler.struct.consts.LinkConstant.initConstant(LinkConstant.java:32)
+	at org.jetbrains.java.decompiler.struct.consts.LinkConstant.resolveConstant(LinkConstant.java:61)
+	at org.jetbrains.java.decompiler.struct.consts.ConstantPool.<init>(ConstantPool.java:100)
+	at org.jetbrains.java.decompiler.struct.StructClass.create(StructClass.java:58)
+	at org.jetbrains.java.decompiler.struct.StructContext.addData(StructContext.java:176)
+```
+
+
+
+**Procyon**
+
+```
+java.lang.reflect.GenericSignatureFormatError
+	at com.strobel.assembler.metadata.signatures.SignatureParser.error(SignatureParser.java:70)
+	at com.strobel.assembler.metadata.signatures.SignatureParser.parseFieldTypeSignature(SignatureParser.java:179)
+	at com.strobel.assembler.metadata.signatures.SignatureParser.parseTypeSignature(SignatureParser.java:327)
+	at com.strobel.assembler.metadata.signatures.SignatureParser.parseTypeSignature(SignatureParser.java:97)
+	at com.strobel.assembler.metadata.MetadataParser.parseTypeSignature(MetadataParser.java:131)
+	at com.strobel.assembler.metadata.ClassFileReader$Scope.lookupType(ClassFileReader.java:1227)
+	at com.strobel.assembler.ir.AnnotationReader.read(AnnotationReader.java:34)
+	at com.strobel.assembler.ir.MetadataReader.readAttributeCore(MetadataReader.java:234)
+	at com.strobel.assembler.metadata.ClassFileReader.readAttributeCore(ClassFileReader.java:261)
+	at com.strobel.assembler.ir.MetadataReader.inflateAttribute(MetadataReader.java:393)
+	at com.strobel.assembler.ir.MetadataReader.inflateAttributes(MetadataReader.java:370)
+	at com.strobel.assembler.metadata.ClassFileReader.defineMethods(ClassFileReader.java:978)
+	at com.strobel.assembler.metadata.ClassFileReader.readClass(ClassFileReader.java:441)
+	at com.strobel.assembler.metadata.ClassFileReader.readClass(ClassFileReader.java:377)
+	at com.strobel.assembler.metadata.MetadataSystem.resolveType(MetadataSystem.java:129)
+	at com.strobel.assembler.metadata.MetadataSystem.lookupTypeCore(MetadataSystem.java:86)
+	at com.strobel.assembler.metadata.MetadataResolver.lookupType(MetadataResolver.java:46)
+```
+
