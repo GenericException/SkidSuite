@@ -16,6 +16,10 @@ SkidSuite 3 is a collection of useful tools pertaining to reverse engineering of
 | [Relevant articles](relevant.md)       | Links to varied articles/resources for Java reverse-engineering and general JVM topics. |
 | [Skidsuite2 successors](successors.md) | Links to tools that serve the same purposes as tools I previously included in SkidSuite. |
 
+## Obfuscation Samples
+
+A [list of obfuscation samples](obf/README.md) from different obfuscators. You can evaluate the effectiveness of each sample on your own terms with your own tools of choice. All samples are based on a [provided jar](obf/obf-sample-test.jar).
+
 ## Contributing
 
 If you have an informative article or useful tool please open an issue with a link or pull request with the changes to the relevant markdown files.
