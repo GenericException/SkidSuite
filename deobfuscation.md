@@ -1,4 +1,4 @@
-### Deobfuscation
+# Deobfuscation
 
 These tools automatically remove obfuscation by different obfuscators and packers.
 

@@ -1,4 +1,4 @@
-## Old Archives
+# Old Archives
 
 Older versions of SkidSuite can be found here:
 * [SkidGUI 1.7](archive/skidgui-1/)

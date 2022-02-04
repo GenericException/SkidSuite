@@ -1,4 +1,4 @@
-## Successors to SS2
+# Successors to SS2
 
 | Tool  | Link  | Description |
 |-------|--------------|------|
