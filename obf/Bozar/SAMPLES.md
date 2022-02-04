@@ -10,4 +10,10 @@ Sample names are based on the given table of options:
 
 | Abbreviated | Full Option / Description |
 | ------------| ------------|
-| Default           | Everything enabled except crashers   |
+| ConstAndFlow | Constant and flow obfuscation |
+| ConstFlow | Const obfuscation, 'flow' setting |
+| ConstLight | Const obfuscation, 'light' setting |
+| DecCrash | Decompile Crashers |
+| FlowHeavy | Flow control, 'heavy' setting |
+| FlowLight | Flow control, 'light' setting |
+| RenameInvis | Renaming with invisible alphabet used |
