@@ -60,24 +60,24 @@ int binarySearch(Object[] args) {
                         zkmDummyFlag = HeapSort.F;
                         n = r;
                         if (zkmDummyFlag) 
-							break immediateN;
+                            break immediateN;
                         if (n < l) 
-							break immediateNegative1;
+                            break immediateNegative1;
                         mid = l + (r - l) / 2;
                         arrayAtMid = arr[mid];
                         xCopy = x;
                         if (zkmDummyLong <= 0L || zkmDummyFlag) 
-							break block13;
+                            break block13;
                         if (arrayAtMid != xCopy) 
-							break block14;
+                            break block14;
                         return mid;
                     }
                     arrayAtMid = arr[mid];
                     xCopy = zkmDummyFlag ? 1 : 0;
                     if (zkmDummyLong <= 0L) 
-						break block13;
+                        break block13;
                     if (xCopy != 0) 
-						break block15;
+                        break block15;
                     xCopy = x;
                 }
                 if (arrayAtMid > xCopy) {
@@ -89,14 +89,14 @@ int binarySearch(Object[] args) {
                     newArgs[0] = arr;
                     return this.binarySearch(newArgs);
                 } else {
-					Object[] newArgs = new Object[5];
-					newArgs[4] = x;
-					newArgs[3] = r;
-					newArgs[2] = mid + 1;
-					newArgs[1] = l;
-					newArgs[0] = arr;
-					arrayAtMid = this.binarySearch(newArgs);
-				}
+                    Object[] newArgs = new Object[5];
+                    newArgs[4] = x;
+                    newArgs[3] = r;
+                    newArgs[2] = mid + 1;
+                    newArgs[1] = l;
+                    newArgs[0] = arr;
+                    arrayAtMid = this.binarySearch(newArgs);
+                }
             }
             return arrayAtMid;
         }
@@ -132,11 +132,11 @@ public class BinarySearch {
         boolean bl = false;
         long l = 29234150369140L;
         // Emitting call to 'binarySearch(Object[])
-		//  - decode call originally named 'a'
+        //  - decode call originally named 'a'
         System.out.println(BinarySearch.decode(
             1691982630 + (char)-27230, 
             1691982630 + 29014, 
-			(int)l
+            (int)l
         ));
         if (ZigZag.R != 0) {
             HeapSort.F = !bl;
@@ -144,8 +144,8 @@ public class BinarySearch {
     }
 
     static {
-		// CFR struggled on this one, but you should get the general idea.
-		// Variables renamed for clarity of purpose.
+        // CFR struggled on this one, but you should get the general idea.
+        // Variables renamed for clarity of purpose.
         block13: {
             tmpEncoded = new String[2];
             i = 0;
@@ -171,7 +171,7 @@ lblSubstring:
             textChars2 = textChars;
             v5 = v3;
             if (v3 > 1) 
-				goto lbl59;
+                goto lbl59;
             do {
                 v6 = textChars2;
                 v7 = textChars2;
@@ -234,7 +234,7 @@ lbl59:
             char[] cArray = encoded[stringIndex].toCharArray();
             switch (cArray[0] & 0xFF) {
                 // giant cipher here for every case 0-255
-				//   cipherValue = ...
+                //   cipherValue = ...
             }
             int cv1 = cipherValue;
             int cv2 = ((param2 ^= param3) & 0xFF) - cv1;
