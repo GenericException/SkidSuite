@@ -128,6 +128,8 @@ public class BinarySearch {
     private static final String[] encoded; // a
     private static final String[] cache;   // b
 
+// Methods not related to string decryption not included
+
     public static void main(String[] args) {
         boolean bl = false;
         long l = 29234150369140L;
