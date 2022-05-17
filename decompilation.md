@@ -18,8 +18,9 @@
 
 ### Relevant links
 
-| Link  | Description |
-|-------|-------------|
+| Link                                                         | Description                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [The Strengths and Behavioral Quirks of Java Bytecode Decompilers](https://arxiv.org/abs/1908.06895) | An academic paper that analyzes the most popular decompilers and compares them using objective metrics. |
+| [Step-by-Step Java Decompilation Example](https://jameshamilton.eu/research/step-step-java-decompilation-example) | An explanation, step-by-step, of how some example bytecode gets translated into legible Java code via decompilation. |
 
 > [_(Back to README)_](README.md)
