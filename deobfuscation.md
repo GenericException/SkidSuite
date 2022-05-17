@@ -11,7 +11,7 @@ These tools automatically remove obfuscation by different obfuscators and packer
 | **Zelix Killer** | Similar to JavaDeobfuscator in usage, but entierly focused on Zelix Klassmaster. Supported Zelix versions are 8 and 11. | [Zelix Killer](https://github.com/GraxCode/zelixkiller) |
 | **Java Unpacker** | While not technically deobfuscation, dumping is very similar and can be used as a supplement to obfuscation. So I'll include it. Supported packers are: <ul><li>CoreProtectEx</li><li>XMC2Ex</li><li>JCryptEx</li><li>JarProtectorEx</li></ul>| [Java Unpacker](https://github.com/GraxCode/java-unpacker) |
 | **Maple IR** | Analyzes the control flow of bytecode and performs several optimization techniques, resulting in cleaner bytecode that still yields the same behavior. | [Maple IR](https://github.com/LLVM-but-worse/maple-ir) / [Whitepaper](https://github.com/LLVM-but-worse/maple-ir/blob/master/docs/maple-ir.pdf) |
-| **Recaf** | Recaf is a bytecode editor, but also patches a variety of ASM crashes, handles some zip file format tricks, and has SSVM integration in 3X releases. | [Recaf](https://github.com/Col-E/Recaf) |
+| **Recaf** | Recaf is a bytecode editor, but also [patches a variety of ASM crashes](https://github.com/Col-E/CAFED00D), handles some zip file format tricks, and has SSVM integration in 3X releases. | [Recaf](https://github.com/Col-E/Recaf) |
 
 ### Remapping
 
