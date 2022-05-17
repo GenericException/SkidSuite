@@ -20,6 +20,10 @@ SkidSuite 3 is a collection of useful tools pertaining to reverse engineering of
 
 A [list of obfuscation samples](obf/README.md) from different obfuscators. You can evaluate the effectiveness of each sample on your own terms with your own tools of choice. All samples are based on a [provided jar](obf/obf-sample-test.jar).
 
+## Obfuscation Techniques
+
+A [list of various obfuscation techniques](obf-techniques/) is also available. These provide a brief summary of what the technique is and how it works.
+
 ## Contributing
 
 If you have an informative article or useful tool please open an issue with a link or pull request with the changes to the relevant markdown files.
