@@ -27,6 +27,7 @@
 | [Anatomy of a Java Decompiler](https://accu.org/index.php/journals/1850) | An article by the authors of CFR & Procyon discussing some of the basic concepts that go into creating a Java decompiler. |
 | [Reverse Compilation Techniques](https://yurichev.com/mirrors/DCC_decompilation_thesis.pdf) | A thesis paper by Cristina Cifuentes that dives deep into data flow and control flow analysis. Implementation code found [here](https://github.com/nemerle/dcc) |
 | [Covert Java: Techniques for Decompiling, Patching, and Reverse Engineering](https://github.com/manjunath5496/Reverse-Engineering-Books/blob/master/revb(9).pdf) | A book covering many concepts important to reverse engineering, focused in the Java realm. Dated terminology and programs referenced, but concepts are still rock solid. |
+| [Guardsquare Blog](https://www.guardsquare.com/blog) | The company behind ProGuard's blog contains a variety of reverse engineering related posts, mostly focusing on Android. But the concepts generaly apply to core Java as well. |
 
 
 
