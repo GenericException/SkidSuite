@@ -2,7 +2,7 @@
 
 | Tool  | Description  | Link |
 |-------|--------------|------|
-| **Recaf** | Recaf is a _"modern"_ Java bytecode editor, and is consistently updated. | [Recaf](https://github.com/Col-E/Recaf) |
+| **Recaf** | Recaf is a _"modern"_ Java bytecode editor, and is consistently updated. It has multiple included decompilers, a simplified bytecode format with its assembler, and many more features. | [Recaf](https://github.com/Col-E/Recaf) |
 | **JByteMod-Beta** | JByteMod-Beta is a Java bytecode editor that supports up to java 11. | [JByteMod-Beta](https://github.com/GraxCode/JByteMod-Beta) |
 | **Cafebabe** |  Cafebabe is a rewrite of JByteMod that supports up to java 11. | [JByteMod-Beta](https://github.com/GraxCode/Cafebabe) |
 | **ReJ** | ReJ is a Java bytecode editor that supports up to Java 7. | [ReJ](http://rejava.sourceforge.net/index.html) |
