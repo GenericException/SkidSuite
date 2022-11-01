@@ -5,7 +5,8 @@
 | **AndroidProjectCreator** | Easily convert an APK to an Android Studio Project. | [AndroidProjectCreator](https://maxkersten.nl/projects/androidprojectcreator/) |
 | **AndroTotal** | Essentially VirusTotal for android APKs. | [AndroTotal](http://andrototal.org/) | 
 | **AndroWarn** | A python-based static analysis tool for automatically detecting malicious behavior in APKs | [Source](https://github.com/maaaaz/androwarn/) | 
-| **APK Studio** | Reverse engineering toolkit for Android _(Uses smali, which is a derivative of java bytecode)_ <ul><li>View embedded resources</li><li>Install APK's to connected devices</li></ul> | [APK Studio](https://github.com/vaibhavpandeyvpz/apkstudio) |
+| **APK Editor Studio** | Reverse engineering toolkit for Android. | [Source](https://github.com/kefir500/apk-editor-studio) |
+| **APK Studio** | **DISCONTINUTED** Reverse engineering toolkit for Android. | [APK Studio](https://github.com/vaibhavpandeyvpz/apkstudio) |
 | **Baksmali** | An assembler/disassembler for the dex format used by dalvik, Android's Java VM implementation. | [Source](https://github.com/JesusFreke/smali) | 
 | **Dex2Jar** | A simple command line tool to convert `classes.dex` into `classes.jar` and back. The process is not always lossless and may not be up-to-date with current android specifications. But its usually enough to gain an understanding of what an application is doing. | [Source](https://github.com/pxb1988/dex2jar) |
 | **Frida** | Frida is a dynamic instrumentation toolkit. It can be used for function hooking and more. I'd suggest checking [some examples](https://github.com/noobpk/frida-android-hook) out there to see what you can do with it. | [Frida Android](https://frida.re/docs/android/) |
