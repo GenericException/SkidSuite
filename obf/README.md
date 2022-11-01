@@ -4,6 +4,7 @@
 | ---------------------------------- | ------------- |
 | [Allatori](Allatori/README.md)     | 7.2           |
 | [Binscure](Binscure/README.md)     | 0.4           |
+| [BisGuard](BisGuard/README.md)     | 9.9           |
 | [Bozar](Bozar/README.md)           | 1.7.0         |
 | [Branchlock](Branchlock/README.md) | 3.0.0         |
 | [Caesium](Caesium/README.md)       | 1.0.9         |
@@ -15,6 +16,7 @@
 
 ## Writeups
 
+* [BisGuard 9.9 _(Trial)_](BisGuard/Analysis-9.9.md)
 * [Branchlock 3.0.0](Branchlock/Analysis-3.0.0.md)
 * [Radon 1.0.3](Radon/Analysis-1.0.3.md)
 * [ZKM 17.0 _(trial)_](ZKM/Analysis-17.0.md)
