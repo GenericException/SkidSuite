@@ -13,6 +13,12 @@
 | [Scuti](Scuti/README.md)           | 0.0.1         |
 | [ZKM](ZKM/README.md)               | 17.0          |
 
+## Writeups
+
+* [Branchlock 3.0.0](Branchlock/Analysis-3.0.0.md)
+* [Radon 1.0.3](Radon/Analysis-1.0.3.md)
+* [ZKM 17.0 _(trial)_](ZKM/Analysis-17.0.md)
+
 ## Sample Jar
 
 All samples are based on: [`obf-sample-test.jar`](obf-sample-test.jar)
