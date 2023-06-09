@@ -23,4 +23,14 @@ These tools remap classes in application jars in a similar way that the refactor
 | **JRemapper** | Uses CFR decompiler. It can export a mappings JSON or a mapped Jar file. | [JRemapper](https://github.com/Col-E/JRemapper) |
 | **Enigma** | Uses Procyon decompiler. It can export a mappings text in the Enigma/SRG/Tiny formats or a mapped Jar file. | [Enigma](https://github.com/FabricMC/Enigma) |
 
+### ZIP/JAR obfuscation
+
+For ZIP/JAR file format obfuscation and tricks, use [LL-Java-Zip](https://github.com/Col-E/LL-Java-Zip) to parse ZIP files in the same way the JVM internally does.
+For a GUI, you can drop a ZIP/JAR into Recaf and re-export it since imports are filtered through LL-Java-Zip.
+
+### Class file crashers
+
+For class file crashers used by obfuscators, use [CAFED00D](https://github.com/Col-E/CAFED00D) to drop illegal attributes from class files that cause these issues. 
+For a GUI, you can drop a ZIP/JAR into Recaf and re-export it illegal classes are filtered through CAFED00D.
+
 > [_(Back to README)_](README.md)
