@@ -4,7 +4,7 @@ Allatori is a commercial Java obfuscator with a very silly description on their 
 
 ## Control Flow
 
-None of them have noticable changes to the demo application samples. In later versions on their changelog they note improvements to control flow. So maybe this behavior is just broken in this version.
+None of them have noticable changes to the demo application samples. In later versions on their changelog they note improvements to control flow. I have not noticed any improvement on 8.6
 
 ### Low 
 
