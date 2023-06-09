@@ -15,7 +15,7 @@ Sample names are based on the given table of options:
 | flow-all               | Flow control obfuscation, all settings enabled |     
 | flow-bad-concat        | Flow control obfuscation, only bad-concat |            
 | flow-bad-pop           | Flow control obfuscation, only bad-pop |         
-| flow-cmp               | Flow control obfuscation, only comparison mangling |     
+| flow-mangle-cmp        | Flow control obfuscation, only comparison mangling |     
 | flow-mangle-local-vars | Flow control obfuscation, only local variable mangling |                   
 | flow-mangle-return     | Flow control obfuscation, only return mangling |               
 | flow-mangle-switch     | Flow control obfuscation, only switch mangling |               
