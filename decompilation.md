@@ -16,6 +16,7 @@
 |-------|--------------|------|
 | **CFR** | CFR is a decompiler focusing on support of modern features _(lambdas, string switches, etc.)_. It has a couple dozen command-line arguments that can tackle different obfuscation strategies. These are documented on the [CFR blog](http://www.benf.org/other/cfr/). You can check out the source and report bugs on [Github](https://github.com/leibnitz27/cfr). | [cfr](http://www.benf.org/other/cfr/) - [Source](https://github.com/leibnitz27/cfr) |
 | **FernFlower** | FernFlower is an analytical decompiler maintained by the IntelliJ community. | [Source](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler/engine) |
+| **QuiltFlower** | QuiltFlower is a FernFlower fork run by the QuiltMC community. The github repo also links to an IntelliJ plugin and precompiled binaries. | [Source](https://github.com/QuiltMC/quiltflower) |
 | **JAD** | JAD is an older compiler which is unable to decompile many modern Java features. | [mirror](http://www.javadecompilers.com/jad) |
 | **jadx** | Jadx is an android dex to Java decompiler capable of also doing simple deobfuscation. | [Source](https://github.com/skylot/jadx) |
 | **Javap** | Javap is the dissasembler provided in all releases of the JDK. It's simple to use and since its only showing you bytecode and not attempting to transform it into source code, you can trust the output. | [javap](https://docs.oracle.com/en/java/javase/17/docs/specs/man/javap.html) |
