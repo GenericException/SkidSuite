@@ -9,41 +9,41 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| Str1    | String Encryption: Light   |
-| Str2    | String Encryption: Medium  |
-| Str3    | String Encryption: Heavy   |
-| Indy1   | Invoke Dynamic: Light      |
-| Indy2   | Invoke Dynamic: Medium     |
-| Indy3   | Invoke Dynamic: Heavy      |
-| Flow1   | Flow Obfuscation: Light    |
-| Flow2   | Flow Obfuscation: Medium   |
-| Flow3   | Flow Obfuscation: Heavy    |
-| Num1    | Number Obfuscation: Light  |
-| Num2    | Number Obfuscation: Medium |
-| Num3    | Number Obfuscation: Heavy  |
-| Crasher | Crasher |
+| string1    | String Encryption: Light   |
+| string2    | String Encryption: Medium  |
+| string3    | String Encryption: Heavy   |
+| indy1      | Invoke Dynamic: Light      |
+| indy2      | Invoke Dynamic: Medium     |
+| indy3      | Invoke Dynamic: Heavy      |
+| flow1      | Flow Obfuscation: Light    |
+| flow2      | Flow Obfuscation: Medium   |
+| flow3      | Flow Obfuscation: Heavy    |
+| num1       | Number Obfuscation: Light  |
+| num2       | Number Obfuscation: Medium |
+| num3       | Number Obfuscation: Heavy  |
+| crasher    | Crasher |
 
 ### Legend - 2.0.0
 
 Sample names are based on the given table of options:
 
-| Abbriviated | Full Option / Description |
+| Sample Name | Full Option / Description |
 | ------------| ------------|
-| Str             | String Encryption: Base   |
-| StrContext      | String Encryption: Base + Context Checks  |
-| StrPool         | String Encryption: Base + Pooling   |
-| AntiTamper      | Prevent tempering with the jar, affects strings  |
-| IndyFast        | Invoke Dynamic: Fast      |
-| IndySlow        | Invoke Dynamic: Slow      |
-| FlowGoto        | Flow Obfuscation: Replacing GOTO instructions with others |
-| FlowBogusSwitch | Flow Obfuscation: Inserting fake switch blocks |
-| FlowBogusJump   | Flow Obfuscation: Insert opaque predicates |
-| FlowSplitBlocks | Flow Obfuscation: Splits blocks in half multple times |
-| FlowFakeCatch   | Flow Obfuscation: Insert fake try-catch blocks |
-| FlowUglyNull    | Flow Obfuscation: Replace IF_ACMP<EQ/NE> with try-catch blocks |
-| BadAnno         | Apply crash-inducing annotations to all members |
-| Virtualize      | Use a custom instruction set to hide methods in a minimal Virtual Machine |
-| Eject           | Obscure method/field references with specialized outlining |
-| EjectArg        | Eject + adding dummy arguments |
+| string           | String Encryption: Base   |
+| string-context   | String Encryption: Base + Context Checks  |
+| string-pool      | String Encryption: Base + Pooling   |
+| antitamper       | Prevent tempering with the jar, affects strings  |
+| indy-fast        | Invoke Dynamic: Fast      |
+| indy-slow        | Invoke Dynamic: Slow      |
+| flow-goto        | Flow Obfuscation: Replacing GOTO instructions with others |
+| flow-bogusswitch | Flow Obfuscation: Inserting fake switch blocks |
+| flow-bogusjump   | Flow Obfuscation: Insert opaque predicates |
+| flow-splitblocks | Flow Obfuscation: Splits blocks in half multple times |
+| flow-fakecatch   | Flow Obfuscation: Insert fake try-catch blocks |
+| flow-uglynull    | Flow Obfuscation: Replace IF_ACMP<EQ/NE> with try-catch blocks |
+| bad-anno         | Apply crash-inducing annotations to all members |
+| virtualize       | Use a custom instruction set to hide methods in a minimal Virtual Machine |
+| eject            | Obscure method/field references with specialized outlining |
+| eject-arg        | Eject + adding dummy arguments |

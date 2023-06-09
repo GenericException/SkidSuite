@@ -8,6 +8,6 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| all         | All options enabled, no class renaming |
+| output      | All options enabled, no class renaming |

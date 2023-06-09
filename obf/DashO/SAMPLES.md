@@ -8,23 +8,23 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| Flow                | Default flow obfuscation settings |
-| FlowMaxTry          | Default + Maximum try-catch block mangling |
-| FlowNoSplit         | Default + Block splitting disabled |
-| FlowMaxSplit        | Default + Maximum splitting settings |
-| String1             | String encryption level 1 |
-| String2             | String encryption level 2 |
-| String4             | String encryption level 4 |
-| String7             | String encryption level 7 |
-| String10            | String encryption level 10 |
-| Watermark           | Watermark _"1337"_ |
-| WatermarkPass       | Watermark _"1337"_ + password _"password"_ |
-| WatermarkAlt        | Watermark _"AltWatermar"_ |
-| AntiTamper          | Exit on tampering detected |
-| AntiTamperError     | Error on tampering detected |
-| AntiTamperException | Throw exception on tampering detected |
-| AntiTamperHang      | Hang on tampering detected |
-| CheckDebug          | Exit on debug detected |
-| Max                 | Max settings for: Flow/String obfuscation combined |
+| flow                 | Default flow obfuscation settings |
+| flow-max-try         | Default + Maximum try-catch block mangling |
+| flow-no-split        | Default + Block splitting disabled |
+| flow-max-split       | Default + Maximum splitting settings |
+| string1              | String encryption level 1 |
+| string2              | String encryption level 2 |
+| string4              | String encryption level 4 |
+| string7              | String encryption level 7 |
+| string10             | String encryption level 10 |
+| watermark            | Watermark _"1337"_ |
+| watermark-pass       | Watermark _"1337"_ + password _"password"_ |
+| watermark-alt        | Watermark _"AltWatermar"_ |
+| antitamper           | Exit on tampering detected |
+| antitamper-error     | Error on tampering detected |
+| antitamper-exception | Throw exception on tampering detected |
+| antitamper-hang      | Hang on tampering detected |
+| checkdebug           | Exit on debug detected |
+| max-flow-string      | Max settings for: Flow/String obfuscation combined |

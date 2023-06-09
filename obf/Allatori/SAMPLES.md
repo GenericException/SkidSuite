@@ -8,12 +8,10 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| CF   | Control Flow _(No Extensive Control Flow Obfuscation)_ |
-| NECF | Normal Extensive Control Flow |
-| MECF | Maximum Extensive Control Flow |
-| V3   | Version 3 of String Encrytion |
-| V4   | Version 4 of String Encryption |
-| F    | Fast String Encryption |
-| S    | Strong String Encryption |
+| control-flow                   | Control Flow _(No Extensive Control Flow Obfuscation)_ |
+| normal-extensive-control-flow  | Normal Extensive Control Flow  |
+| maximum-extensive-control-flow | Maximum Extensive Control Flow |
+| string-v3-(fast/strong)        | Version 3 of String Encrytion  |
+| string-v4-(fast/strong)        | Version 4 of String Encryption |

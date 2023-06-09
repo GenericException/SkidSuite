@@ -8,6 +8,6 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| All         | Its the only option, theres no config. |
+| output      | Its the only option, theres no config. |

@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| Normal      | All transformers enabled, except crashers. |
-| Crasher     | Normal plus ASM crasher |
+| normal      | All transformers enabled, except crashers. |
+| crasher     | Normal plus ASM crasher |

@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option                                                  |
-| ----------- | ------------------------------------------------------------ |
+| Sample Name | Full Option                            |
+| ----------- | -------------------------------------- |
 | All         | All options enabled at maximum values. |
 

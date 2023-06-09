@@ -8,7 +8,7 @@
 
 Sample names are based on the given table of options:
 
-| Abbreviated | Full Option |
+| Sample Name | Full Option |
 | ------------| ------------|
-| Normal      | All transformers enabled |
+| output      | All transformers enabled |
 
