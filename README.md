@@ -13,6 +13,7 @@ SkidSuite 3 is a collection of useful tools pertaining to reverse engineering of
 | [Editing](editing.md)                  | Links to bytecode editors. Used for manipulating already complied Java programs. |
 | [Obfuscation](obfuscation.md)          | Links to obfuscators. Used to make code theft and reverse-engineering more difficult. |
 | [Android](android.md)                  | Links to tools/resources for android-focused reverse-engineering. |
+| [Malware](malware.md)                  | Links to JVM malware information. |
 | [Relevant articles](relevant.md)       | Links to varied articles/resources for Java reverse-engineering and general JVM topics. |
 | [Skidsuite2 successors](successors.md) | Links to tools that serve the same purposes as tools I previously included in SkidSuite. |
 
